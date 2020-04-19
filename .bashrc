@@ -163,6 +163,8 @@ if [ -f '/home/daniel/google-cloud-sdk/path.bash.inc' ]; then . '/home/daniel/go
 # The next line enables shell command completion for gcloud.
 if [ -f '/home/daniel/google-cloud-sdk/completion.bash.inc' ]; then . '/home/daniel/google-cloud-sdk/completion.bash.inc'; fi
 
+export GOOGLE_APPLICATION_CREDENTIALS="/home/daniel/daniel-wierdsma-personal.json"
+
 set -o vi # vi at command line
 export EDITOR=vim
 
