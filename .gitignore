@@ -36,3 +36,10 @@ Icon?
 Thumbs.db
 
 *.lock
+
+*.tfstate
+node_modules/
+build/
+
+*.tmp
+*.swp
