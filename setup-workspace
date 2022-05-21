@@ -2,6 +2,7 @@
 
 ## Setup bash files
 sudo ln -s ~/.dotfiles/.bashrc ~/.bashrc
+sudo ln -s ~/.dotfiles/.zshrc ~/.zshrc
 
 ## Setup git files
 sudo ln -s ~/.dotfiles/.gitignore ~/.gitignore
