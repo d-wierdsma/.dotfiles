@@ -100,10 +100,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias k="kubectl"
-alias kpf="kubectl port-forward"
-DEFAULT_USER=whoami
-
-export KUBE_CONFIG_PATH=/Users/danielwierdsma/.kube/config
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+alias k=kubectl
